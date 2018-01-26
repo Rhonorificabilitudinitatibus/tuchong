@@ -1,0 +1,168 @@
+html,
+body {
+	height: 100%;
+}
+
+ul,
+li,
+html,
+body,
+img,
+h1,
+h2,
+h3,
+p,
+span,
+em {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	display: block;
+}
+
+#app {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	height: 0.8rem;
+	background: #e4366b;
+	color: white;
+	font-size: 0.4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header span:first-child {
+	margin-right: 0.3rem;
+}
+
+section {
+	flex: 1;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+nav {
+	height: 0.9rem;
+	background: #52525a;
+	position: relative;
+}
+
+nav .search {
+	width: 6rem;
+	height: 0.56rem;
+	border-radius: 0.2rem;
+	/*margin-top: 0.16rem;*/
+	position: absolute;
+	outline: none;
+	left: 50%;
+	top: 50%;
+	margin-left: -3rem;
+	margin-top: -0.28rem;
+	text-indent: 0.76rem;
+	font-size: 0.22rem;
+}
+
+nav .glyphicon {
+	position: absolute;
+	left: 0.56rem;
+	top: 0.3rem;
+	font-size: 0.3rem;
+	z-index: 1;
+}
+.banner img{
+	display: block;
+	height: 2.5rem;
+}
+.list li {
+	/*margin: 0.2rem 0.53rem 0.24rem 0.16rem;*/
+	border-top: 1px solid #707070;
+}
+
+.list li:after {
+	clear: both;
+	content: ".";
+	display: block;
+	visibility: hidden;
+	height: 0;
+}
+
+.left {
+	width: 1.9rem;
+	float: left;
+	margin: 0.2rem 0.16rem 0.24rem 0.16rem
+}
+
+.left img {
+	border: 1px solid #c8c8c8;
+	width: 1.72rem;
+	height: 1.72rem;
+}
+
+.right {
+	margin-top: 0.33rem;
+	width: 4rem;
+	float: left;
+}
+
+.right h2 {
+	font-size: 0.3rem;
+	line-height: 0.4rem;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+}
+.bottom{
+	float: left;
+	font-size: 0.3rem;
+	margin-top: 0.12rem;
+}
+.bottom span{
+	color:#f15e88;
+}
+.bottom em{
+	font-style: normal;
+	text-decoration: line-through;
+	color: #bbb;
+}
+.bottom p{
+	font-size: 0.22rem;
+	text-indent: 0.1rem;
+}
+.right a{
+	text-decoration: none;
+	margin-top: 0.22rem;
+	float: right;
+	width: 1.2rem;
+	height: 0.52rem;
+	background: #ea517f;
+	margin-right: 0.14rem;
+	border-radius: 0.1rem;
+	font-size:0.4rem;
+	color:white;
+	text-align: center;
+	line-height: 0.52rem;
+}
+footer {
+	height: 1.1rem;
+	background: #484850;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: white;
+	font-size: 0.4rem;
+}
+
+footer div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}

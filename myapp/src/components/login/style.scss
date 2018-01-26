@@ -1,0 +1,21 @@
+@import "~@/lib/reset.scss";
+
+
+.login{
+       position: relative;
+       width: 100%;
+       height: 100%;
+       background: url(../../assets/lg-bg.png) no-repeat;
+       background-size: cover;
+}
+.logincon{
+      opacity: 0.5;
+    width: 72%;
+    height: 2.6rem;
+    position: absolute;
+    left: 0.52rem;
+    top: 2.4rem; 
+}
+.loginbtn{
+    margin-top: 20px;
+}

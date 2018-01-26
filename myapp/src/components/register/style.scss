@@ -1,0 +1,30 @@
+@import "~@/lib/reset.scss";
+
+.mint-cell{
+    @include border(0 0 1px 0, #ccc, solid);
+}
+
+.registerBtn{
+    margin-top: 20px;
+}
+
+
+.reg{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: url(../../assets/bg.png) no-repeat;
+    background-size: cover;
+}
+.mint-header{
+    height: 0.4rem;
+    width: 100%;
+}
+.regcon{
+     opacity: 0.5;
+    width: 72%;
+    height: 3rem;
+    position: absolute;
+    left: 0.52rem;
+    top: 2.4rem;
+}

@@ -1,0 +1,102 @@
+<template>
+	<div class="container">
+		<!--<v-header></v-header>-->
+		<div class="content">
+			我的页面
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+			<h1>lala </h1>
+		</div>
+		<v-footer></v-footer>
+	</div>
+</template>
+<script src="./script.js"></script>
+<style lang="scss" src="./style.scss"></style>
+<!--<style lang="css" src="./../../assets/css/bootstrap.css"></style>-->
+<!--<link rel="stylesheet" type="text/css" href="./../assets/css/bootstrap.css" />-->
