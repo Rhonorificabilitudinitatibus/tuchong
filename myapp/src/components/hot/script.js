@@ -6,29 +6,24 @@ export default{
 	data(){
 		return{
 			list:[],
-			cover:"",
-			coverarr:[],
+			content:{},
 		}
 	},
-	mounted(){
-		var url = BASE_URL + "/users/test"
+	created(){
+		var url = BASE_URL + "/users/hotnews"
 		axios.get(url,{
 		}).then((response)=>{
-			console.log(response.data[0].feedList)
-//			this.list=response.data[0].feedList;
-			var test = response.data[0].feedList;
-			var j = "";
-			var arr = [];
-			console.log(test.length)
-			for(var i = 0; i < test.length; i++){
-				j = "https://photo.tuchong.com/"+ test[i].images[0].user_id + "/f/" + test[i].images[0].img_id + ".jpg"
-				arr.push(j)
-			}
-//			this.cover="https://photo.tuchong.com/"+ response.data[0].feedList[0].images[0].user_id + "/f/" + response.data[0].feedList[0].images[0].img_id + ".jpg" 
-			this.coverarr = arr;
+			console.log(response.data[0])
+			this.content=response.data[0];
 		}).catch((error)=>{
 			console.log(error)
 		})
+	},
+	mounted(){
+		var show = document.getElementsByTagName("footer")[0].children[0].children[0];
+		show.style.color="#fff";
+		show.style.backgroundColor="#00CA79";
+		
 	},
 	methods:{
 		

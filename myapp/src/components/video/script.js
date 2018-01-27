@@ -8,6 +8,9 @@ export default{
 		}
 	},
 	mounted(){
+		var show = document.getElementsByTagName("footer")[0].children[0].children[0];
+		show.style.color="#fff";
+		show.style.backgroundColor="#00CA79";
 	},
 	methods:{
 		

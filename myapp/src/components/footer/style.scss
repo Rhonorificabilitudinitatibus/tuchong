@@ -1,4 +1,7 @@
 @import "~@/lib/reset.scss";
-.router-link-active{
-    @include text-color(#f66);
-}
+//.router-link-active{
+//  @include text-color(#f66);
+//}
+.router-link-active {
+        color: #fff;
+    }

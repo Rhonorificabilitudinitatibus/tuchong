@@ -10,26 +10,23 @@ export default{
 	},
 	data(){
 		return{
-//			list:[
-//			{path:"/home",name:"首页"},
-//			{path:"/hot",name:"热门"},
-//			{path:"/video",name:"视频"},
-//			{path:"/scene",name:"风光"},
-//			]
+			list:[],
 		}
 	},
 	mounted(){
-//		var url = BASE_URL + "/users/data"
-//		axios.get(url,{
-//		}).then((response)=>{
-////			console.log(response)
+		var url = BASE_URL + "/users/recommend"
+		axios.get(url,{
+		}).then((response)=>{
 //			console.log(response.data[0].videoList)
-//		}).catch((error)=>{
-//			console.log(error)
-//		})
+			this.list=response.data[0].videoList;
+		}).catch((error)=>{
+			console.log(error)
+		})
 	},
 	methods:{
-		
+//		play:function(){
+//			console.log(this)
+//		}
 	},
 	computed:{
 		

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script src="jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				$.ajax({
+					type:"get",
+					url:"hot1.json",
+					success:function(data){
+						console.log(data)
+					},
+					error:function(data){
+						console.log(data,data.status)
+					}
+				});
+			})
+		</script>
+	</body>
+</html>

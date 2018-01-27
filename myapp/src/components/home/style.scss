@@ -1,5 +1,5 @@
 @import "~@/lib/reset.scss";
-#video {
+.video {
     background: #f3f6f7;
 }
 
@@ -14,8 +14,12 @@
         width: 0.4rem;
         height: 0.4rem;
         border-radius: 50%;
-        background: blueviolet;
         float: left;
+        img {
+            width: 0.4rem;
+            height: 0.4rem;
+            border-radius: 50%;
+        }
     }
     .title {
         .tit {
@@ -40,6 +44,38 @@
     }
 }
 
+.v {
+    position: relative;
+}
+
+.play-button {
+    //  background-color: rgba(0, 0, 0, 0.15);
+    //  background-image: url("http: //static.kaiyanapp.com/eyepetizer-web/assets/images/detail/icon_play@2x.3b9f9ba5.png");
+    //  background-position: 50%;
+    //  background-repeat: no-repeat;
+    //  background-size: 60px 60px;
+    //  cursor: pointer;
+    //  transition: background-color .5s;
+    //  height: 100%;
+    //  position: absolute;
+    //  width: 100%;
+    //  left: 0
+    position: absolute;
+    background-image: url("../../assets/icon_play.png");
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.15);
+    background-size: 60px 60px;
+    transition: background-color .5s;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-position: 50%;
+    &:hover {
+        background-color: rgba(0, 0, 0, 0);
+    }
+}
+
 video {
     width: 100%;
     height: 2.1rem;
@@ -50,17 +86,18 @@ h2 {
     font-weight: bold;
     margin-left: 0.2rem;
     padding: 0.1rem 0;
-    em{
+    em {
         margin-right: 0.1rem;
     }
 }
-.video-bottom{
-    padding:0.1rem 0;
+
+.video-bottom {
+    padding: 0.1rem 0;
     margin-left: 0.2rem;
-    em{
-        font-size:0.3rem;
+    em {
+        font-size: 0.3rem;
         margin-right: 0.2rem;
-        i{
+        i {
             vertical-align: baseline;
             font-size: 0.16rem;
             color: #7e8e86;
@@ -68,15 +105,16 @@ h2 {
             margin-left: 0.05rem;
         }
     }
-    .icon-share{
+    .icon-share {
         color: black;
-        font-size:0.22rem;
+        font-size: 0.22rem;
     }
-    .icon-gengduo{
+    .icon-gengduo {
         float: right;
     }
 }
-aside{
+
+aside {
     background: #e1e4e5;
     height: 0.15rem;
 }

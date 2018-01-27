@@ -13,6 +13,4 @@
 
 <script src="./script.js"></script>
 
-<style scoped lang="scss" src='./style.scss'>
-	/*@import "~@/lib/reset.scss"*/
-</style>
+<style scoped lang="scss" src='./style.scss'></style>

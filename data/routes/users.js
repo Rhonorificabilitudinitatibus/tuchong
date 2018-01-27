@@ -70,6 +70,24 @@ router.get("/data",function(req,res,next){
 		})
 	})
 })
+//开眼作为主页
+router.get("/recommend",function(req,res,next){
+	MySql.connect((db)=>{
+		MySql.find(db,"kaiyan",{},{},(data)=>{
+			res.send(data)
+			MySql.close()
+		})
+	})
+})
+//hot文章
+router.get("/hotnews",function(req,res,next){
+	MySql.connect((db)=>{
+		MySql.find(db,"hotnews",{},{},(data)=>{
+			res.send(data)
+			MySql.close()
+		})
+	})
+})
 //测试专用
 router.get("/test",function(req,res,next){
 	MySql.connect((db)=>{
